@@ -1,13 +1,12 @@
 //
-//  ViewController.swift
 //  Parkt
 //
-//  Created by Mohsin Braer on 12/5/21.
+//  Created by Mohsin Braer on 12/8/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

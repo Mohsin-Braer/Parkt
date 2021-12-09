@@ -1,10 +1,11 @@
 //
-//  AppDelegate.swift
 //  Parkt
 //
-//  Created by Mohsin Braer on 12/5/21.
+//  Created by Mohsin Braer on 11/8/21.
 //
 
+import UIKit
+import Firebase
 import UIKit
 
 @main
@@ -14,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSPlacesClient.provideAPIKey("\(APIKey.googlePlacesKey)")
+        FirebaseApp.configure()
         return true
     }
 
